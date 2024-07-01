@@ -1,0 +1,682 @@
+{
+  "1": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F1",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.164Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "1",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "status": "completed",
+    "units": 10,
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.164Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "2": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F2",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.164Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "2",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "status": "funded",
+    "units": 10,
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.164Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "3": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F3",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "3",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "status": "live",
+    "units": 10,
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "4": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F4",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "4",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "status": "completed",
+    "units": 10,
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "5": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F5",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "5",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "units": 10,
+    "status": "contractApproved",
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "6": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F6",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "6",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "units": 10,
+    "status": "contractApproved",
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "7": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F7",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "7",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "units": 10,
+    "status": "contractRejected",
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "8": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F8",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "8",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "units": 10,
+    "status": "pendingApproval",
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "9": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F9",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "9",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "units": 10,
+    "status": "pendingApproval",
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  },
+  "10": {
+    "assetsClass": "fixed-income",
+    "attachments": [
+      { "key": "m1x9wu", "name": "empty.pdf", "size": 25600, "type": "pdf" }
+    ],
+    "code": "F10",
+    "coverage": 1000000,
+    "createdAt": "2023-10-24T16:04:36.165Z",
+    "durationInMonths": 1,
+    "expectedRoi": 20,
+    "fees": { "distribution": 12, "subscription": 0.02 },
+    "financialInformation": "asdfasdfasdfa",
+    "fundImages": [
+      "https://images.unsplash.com/photo-1621961458348-f013d219b50c"
+    ],
+    "fundManagerId": "1",
+    "fundManagerName": "Mock Fund Manager",
+    "fundTeam": [{ "name": "Yousef", "position": "dev", "image": "szfrng" }],
+    "generalInformation": "fasdfas",
+    "id": "10",
+    "investmentEndingDate": "2023-10-24T22:00:00.000Z",
+    "investmentStartingDate": "2023-10-23T22:00:00.000Z",
+    "minCoverage": 1000,
+    "minInvestment": 10000,
+    "name": "Fund 11",
+    "units": 10,
+    "status": "fundApproved",
+    "takenUnits": 0,
+    "type": "open",
+    "unitPrice": 1000,
+    "updatedAt": "2023-10-24T16:04:36.165Z",
+    "updates": "asdfasdf",
+    "city": "city1",
+    "location": {},
+    "riskMessage": "Risk Message",
+    "fundReports": [
+      {
+        "id": "1",
+        "code": "F1",
+        "reportSharingDate": "2023-10-24",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "2",
+        "code": "F2",
+        "reportSharingDate": "2023-10-22",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "3",
+        "code": "F3",
+        "reportSharingDate": "2023-10-20",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "4",
+        "code": "F4",
+        "reportSharingDate": "2023-10-18",
+        "reportLink": "https://google.com"
+      },
+      {
+        "id": "5",
+        "code": "F5",
+        "reportSharingDate": "2023-10-16",
+        "reportLink": "https://google.com"
+      }
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "1": {
+    "id": "1",
+    "walletBalance": 1000000,
+    "bankAccount": {
+      "name": "Hayat Real Estate Fund SPE",
+      "iban": "AL35202111090000000001234567"
+    },
+    "transactions": [
+      {
+        "id": "1",
+        "code": "ODWD0000000001692596",
+        "type": "deposit",
+        "status": "doneSuccessfully",
+        "simplifiedType": "deposit",
+        "paymentMethod": "Credit Card",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 1000,
+        "description": "Initial deposit",
+        "investorId": "101"
+      },
+      {
+        "id": "2",
+        "code": "ODWD0000000001692596",
+        "type": "withdrawal",
+        "status": "doneSuccessfully",
+        "simplifiedType": "withdrawal",
+        "paymentMethod": "Debit Card",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 500,
+        "description": "Monthly withdrawal",
+        "investorId": null,
+        "account": {
+          "name": "Hayat Real Estate Fund SPE",
+          "iban": "AL35202111090000000001234567"
+        }
+      }
+    ]
+  },
+  "2": {
+    "id": "2",
+    "walletBalance": 500000,
+    "bankAccount": {
+      "name": "XYZ Trust Fund",
+      "iban": "AL39202011090000000001234568"
+    },
+    "transactions": [
+      {
+        "id": "3",
+        "code": "ODWD0000000001692596",
+        "type": "profit",
+        "status": "doneSuccessfully",
+        "simplifiedType": "deposit",
+        "paymentMethod": "Bank Transfer",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 2000,
+        "description": "Profit added",
+        "investorId": "101"
+      }
+    ]
+  },
+  "3": {
+    "id": "3",
+    "walletBalance": 300000,
+    "bankAccount": {
+      "name": "ABC Holdings",
+      "iban": "AL37202011090000000001234569"
+    },
+    "transactions": [
+      {
+        "id": "4",
+        "code": "ODWD0000000001692596",
+        "type": "fees",
+        "status": "transactionFailed",
+        "simplifiedType": "withdrawal",
+        "paymentMethod": "Credit Card",
+        "message": "Transaction Failed",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 100,
+        "description": "Service fee",
+        "investorId": "101"
+      }
+    ]
+  },
+  "4": {
+    "id": "4",
+    "walletBalance": 200000,
+    "bankAccount": {
+      "name": "Financial Group Co.",
+      "iban": "AL39202011090000000001234570"
+    },
+    "transactions": [
+      {
+        "id": "5",
+        "code": "ODWD0000000001692596",
+        "type": "deposit",
+        "status": "doneSuccessfully",
+        "simplifiedType": "deposit",
+        "paymentMethod": "Bank Transfer",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 1500,
+        "description": "Quarterly deposit",
+        "investorId": "101"
+      }
+    ]
+  },
+  "5": {
+    "id": "5",
+    "walletBalance": 700000,
+    "bankAccount": {
+      "name": "Real Estate LLC",
+      "iban": "AL39202011090000000001234571"
+    },
+    "transactions": [
+      {
+        "id": "6",
+        "code": "ODWD0000000001692596",
+        "type": "cancelInvestment",
+        "status": "doneSuccessfully",
+        "simplifiedType": "withdrawal",
+        "paymentMethod": "PayPal",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 200,
+        "description": "Investment cancellation",
+        "investorId": "101"
+      }
+    ]
+  },
+  "6": {
+    "id": "6",
+    "walletBalance": 80000,
+    "bankAccount": {
+      "name": "HighRise Holdings",
+      "iban": "AL39202011090000000001234572"
+    },
+    "transactions": [
+      {
+        "id": "7",
+        "code": "ODWD0000000001692596",
+        "type": "profit",
+        "status": "doneSuccessfully",
+        "simplifiedType": "deposit",
+        "paymentMethod": "Credit Card",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 300,
+        "description": "Monthly profit",
+        "investorId": "101"
+      }
+    ]
+  },
+  "7": {
+    "id": "7",
+    "walletBalance": 120000,
+    "bankAccount": {
+      "name": "Skyline Investments",
+      "iban": "AL37202011090000000001234573"
+    },
+    "transactions": [
+      {
+        "id": "8",
+        "code": "ODWD0000000001692596",
+        "type": "deposit",
+        "status": "doneSuccessfully",
+        "simplifiedType": "deposit",
+        "paymentMethod": "Debit Card",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 1200,
+        "description": "Deposit for Investment",
+        "investorId": "101"
+      }
+    ]
+  },
+  "8": {
+    "id": "8",
+    "walletBalance": 50000,
+    "bankAccount": {
+      "name": "Greenwood Savings",
+      "iban": "AL35202111090000000001234574"
+    },
+    "transactions": [
+      {
+        "id": "9",
+        "code": "ODWD0000000001692596",
+        "type": "withdrawal",
+        "status": "doneSuccessfully",
+        "simplifiedType": "withdrawal",
+        "paymentMethod": "PayPal",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 600,
+        "description": "Routine withdrawal",
+        "investorId": "101"
+      }
+    ]
+  },
+  "9": {
+    "id": "9",
+    "walletBalance": 30000,
+    "bankAccount": {
+      "name": "Meadow Lands Corp.",
+      "iban": "AL37202011090000000001234575"
+    },
+    "transactions": [
+      {
+        "id": "10",
+        "code": "ODWD0000000001692596",
+        "type": "fees",
+        "status": "doneSuccessfully",
+        "simplifiedType": "withdrawal",
+        "paymentMethod": "Credit Card",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 50,
+        "description": "Monthly service fee",
+        "investorId": "101"
+      }
+    ]
+  },
+  "10": {
+    "id": "10",
+    "walletBalance": 60000,
+    "bankAccount": {
+      "name": "Pioneer Group",
+      "iban": "AL39202011090000000001234576"
+    },
+    "transactions": [
+      {
+        "id": "11",
+        "code": "ODWD0000000001692596",
+        "type": "investment",
+        "status": "doneSuccessfully",
+        "simplifiedType": "deposit",
+        "paymentMethod": "Bank Transfer",
+        "message": "Transaction Successful",
+        "createdAt": "2023-10-31T16:04:36.164Z",
+        "amount": 500,
+        "description": "Initial investment",
+        "investorId": "101"
+      }
+    ]
+  }
+}

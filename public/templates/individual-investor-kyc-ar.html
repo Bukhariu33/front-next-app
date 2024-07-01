@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Individual Investor KYC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body,
+    * {
+      overflow-x: hidden;
+      padding: 0;
+      font-family: 'Tajawal', sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0;
+      box-sizing: border-box;
+      direction: rtl;
+    }
+    .container {
+      padding: 90px 130px;
+    }
+
+    .title {
+      font-size: 26px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+    }
+
+    .mb-8 {
+      margin-bottom: 32px;
+    }
+
+    .kyc-table-header {
+      padding-inline: 32px;
+      padding-block: 4px;
+      background-color: #dcac00;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      padding-top: 1px;
+      font-weight: 700;
+    }
+
+    .kyc-table-row {
+      display: flex;
+      justify-content: space-between;
+      padding-inline: 32px;
+      padding-block: 4px;
+      border: 2px solid black;
+      padding-top: 1px;
+      gap: 16px;
+      font-weight: 400;
+      font-size: 22px;
+    }
+
+    .border-t-0 {
+      border-top: 0px;
+    }
+
+    .row-title {
+      flex: 2 1 0%;
+      margin: 0;
+    }
+
+    .row-value {
+      flex: 1 2 0%;
+      text-align: left;
+      margin: 0;
+    }
+
+    .row-value-list-container {
+      flex: 1 2 0%;
+      text-align: left;
+      display: flex;
+      justify-content: end;
+    }
+
+    .row-value-list {
+      width: fit-content;
+      text-align: left;
+    }
+
+    .text-yellow {
+      color: #dcac00;
+      font-weight: 700;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1 class="title">نموذج معرفة المستخدم</h1>
+      <h2 class="subtitle mb-8">ملخص لجميع تفاصيل المستثمر</h2>
+
+      <!-- PERSONAL INFORMATION -->
+      <div class="kyc-table-header">المعلومات الشخصية</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">الاسم الكامل</p>
+        <p class="row-value">بدر رشيد صالح العبيدي</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">تاريخ الميلاد</p>
+        <p class="row-value">14/11/1994</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">الهوية الوطنية</p>
+        <p class="row-value">1083894129</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">رقم الجوال</p>
+        <p class="row-value">0556363243</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">البريد الإلكتروني</p>
+        <p class="row-value">balobaidi@owais.sa</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">الجنسية</p>
+        <p class="row-value">سعودي</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">الجنس</p>
+        <p class="row-value">ذكر</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">العنوان الوطني</p>
+        <p class="row-value">شارع الانظوال، حي الجزيرة، الرياض</p>
+      </div>
+
+      <!-- GENERAL INFORMATION -->
+      <div class="kyc-table-header">المعلومات العامة</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">
+          هل سبق أن عملت في القطاع المالي خلال السنوات الخمس الماضية؟
+        </p>
+        <p class="row-value">نعم</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          هل لديك أي خبرة عملية أخرى تتعلق بالقطاع المالي؟
+        </p>
+        <p class="row-value">نعم</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          هل سبق لك أن استثمرت في الصناديق الإستثمارية العقارية أو غيرها ؟
+        </p>
+        <p class="row-value">نعم</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          هل أنت عضو في مجلس إدارة ، أو عضو في لجنة التدقيق ، أو مسؤول تنفيذي
+          كبير في شركة مدرجة؟
+        </p>
+        <p class="row-value">نعم</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">المعرفة والخبرة الاستثمارية؟</p>
+        <p class="row-value">عالية</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">تحمل مخاطر الاستثمار؟</p>
+        <p class="row-value">عالية</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">مدة الاستثمار؟</p>
+        <p class="row-value">متوسطة</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          هل أنت مكلف بوظائف عامة بارزة في المملكة أو دولة أجنبية ، أو مناصب
+          إدارية عليا ، أو منصب في منظمة دولية؟
+        </p>
+        <p class="row-value">لا</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          هل لديك علاقة (عن طريق الدم أو الزواج حتى الدرجة الثانية) ، أو لديه
+          ارتباط بشخص مكلف بوظيفة عامة بارزة في المملكة أو دولة أجنبية ، أو
+          مناصب إدارية عليا ، أو منصب في منظمة دولية؟
+        </p>
+        <p class="row-value">لا</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          هل أنت المستفيد الحقيقي من الحساب أو نائب عن مستفيد آخر؟
+        </p>
+        <p class="row-value">المستفيد</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          اسم و هوية المستفيد الحقيقي من الحساب الإستثماري
+        </p>
+        <p class="row-value">لا يوجد</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">مستوي التعليم</p>
+        <p class="row-value">دراسات عليا</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">المهنة الحالية</p>
+        <p class="row-value">صاحب عمل</p>
+      </div>
+
+      <!-- FINANCIAL CONDITION -->
+      <div class="kyc-table-header">الوضع المالي</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">صافي الثروة التقريبية (بالريال السعودي)</p>
+        <p class="row-value">ريال 600,001 - 1,500,000</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">ما الذي تستثمر فيه حاليا؟</p>
+        <div class="row-value-list-container">
+          <div class="row-value-list">
+            <p>عقارات</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">ما هي أهدافك الاستثمارية؟</p>
+        <div class="row-value-list-container">
+          <div class="row-value-list">
+            <p>حماية رأس المال</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">عدد سنوات الاستثمار</p>
+        <p class="row-value">1</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">الدخل السنوي التقريبي؟</p>
+        <p class="row-value">ريال 600,001 - 1,500,000</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">المبلغ المتوقع استثماره لكل فرصة؟</p>
+        <p class="row-value">100,001 - 200,000</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">المبلغ المتوقع استثماره سنويًا؟</p>
+        <p class="row-value">200,001 - 500,000</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">أي معلومات مالية أخرى عن الوضع المالي للعميل؟</p>
+        <p class="row-value">لا يوجد</p>
+      </div>
+
+      <!-- CLIENT CERTIFICATION  -->
+      <div class="kyc-table-header">شهادة العميل</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">
+          نعم أنا [
+          <span class="text-yellow">بدر رشيد صالح العبيدي</span>
+          ] حامل الهوية رقم [<span class="text-yellow">10764573465</span>] أقر
+          أنني قد قرأت جميع
+          <span class="text-yellow">الشروط والأحكام</span>
+          ، وكلا من
+          <span class="text-yellow">سياسة الإفصاح</span>
+          و
+          <span class="text-yellow">سياسة الخصوصية</span>
+          بوضوح، وأنا في أفضل حالاتي العقلية، وأعلن صراحة أنني موافق على ما جاء
+          فيها. كما أقر أن الأموال التي أودعتها في منصة أويس المالية  هي أموالي
+          الخاصة وأنها خالية من أي شك، وأن اختياري الشخصي باتخاذ أي قرار
+          استثماري، وهذا بعد مراجعة الفرصة وتحقق من المخاطر المتوقعة، وأنه لا
+          يوجد ضمان للرأسمال، وأن أي فرصة استثمارية قد تكون عرضة للربح أو
+          الخسارة.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          أقر بأن المعلومات التي قدمتها في هذا النموذج صحيحة وكاملة. - وأقر
+          بقراءتي وفهمي لـ"شروط وأحكام فتح الحساب" أدناه وأوافق على الإلتزام
+          بها.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          أقر بأن لشركة أويس الاصول لتقنية المالية ستعتمد على المعلومات المقدمة
+          في هذا النموذج. في حالة التغيير ، سوف أقوم بتحديث معلوماتي. إذا لم اقم
+          بتحديث المعلومات ، يجوز لشركة أويس الاصول لتقنية المالية تجميد حسابي
+          لمدة اثني عشر شهرًا مما قد يؤدي إلى إيقاف الحساب بشكل مؤقت  دون
+          إشعاري.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">التصنيف</p>
+        <p class="row-value">تم الاعتراف به إلكترونيًا</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">معترف به بواسطة</p>
+        <p class="row-value">بدر رشيد صالح العبيدي</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">الهوية الوطنية</p>
+        <p class="row-value">1083894129</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">رقم الجوال</p>
+        <p class="row-value">0556363243</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">البريد الإلكتروني</p>
+        <p class="row-value">balobaidi@owais.sa</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">التاريخ والوقت</p>
+        <p class="row-value">10-07-2023 18:45:59</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">IP</p>
+        <p class="row-value">179.20.10.2</p>
+      </div>
+
+      <!-- CLIENT SUITABILITY ASSESSMENT -->
+      <div class="kyc-table-header">تقرير ملائمة العميل</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">النتيجة</p>
+        <p class="row-value">غير ملائم</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          بناء على إجابات العميل في نموذج اعرف عميلك، العميل غير ملائم للاستثمار
+          في أدوات الدين.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          هل قرأ العميل وفهم ووافق على اعتراف العميل بالمنتج المناسب و/أو وصف
+          المنتج اعتماد المادة 43 (ج) من لوائح مؤسسات السوق المالية.
+        </p>
+        <p class="row-value">نعم</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          أقر بأنني أدرك أن منتج صكوك الدين (المنتج) وطبيعة المنتج (وأي صفقات
+          تنفذ باسمي على المنتج) ينطويان على مستوى عالٍ من المخاطر يفوق المخاطر
+          المشار إليها والتحمل للمخاطر المحدد في ملفي / KYC مع أويس كابيتال في
+          الوقت الحالي، وأعلن أنني رأيت تقرير ملاءمتي وأن المنتج غير مناسب
+          بالنسبة لي. أؤكد أيضًا أنني أفهم طبيعة المخاطر المتضمنة في شروط وأحكام
+          المنتج وأي صفقات تنفذ على المنتج، وأنها لا تتوافق مع أهداف الاستثمار
+          و/أو بيانات الاستثمار و/أو البيانات المالية التي قدمتها لأويس كابيتال
+          مسبقًا. وبناءً على ذلك، أقر بالاستثمار في المنتج، وأتحمل المسؤولية
+          الكاملة، وأبرئ أويس كابيتال من المخاطر المذكورة. - أعلن أيضًا أن جميع
+          المعلومات التي قدمتها من خلال نموذج تقييم المخاطر وتقرير الملاءمة
+          دقيقة وغير مضللة. وبناءً على ذلك، أوافق على نتيجة التقييم وتقرير
+          الملاءمة الذي يحدد قدرتي على الاستثمار في منتجات عالية المخاطر مثل
+          هذا. وعلى الرغم من ذلك، أود الاستثمار في مثل هذه المنتجات بمسؤولية
+          كاملة وبدون مسؤولية تجاه أويس كابيتال أو أي من موظفيه، وبالتالي أؤكد
+          أنني أفهم طبيعة المخاطر الموجودة والمخاطر المسجلة في شروط وأحكام
+          المنتج والعمليات التي تتم بموجب هذا المنتج وألا تتوافق مع تقرير
+          الملاءمة وأهداف الاستثمار و/أو الخبرات الاستثمارية و/أو المعلومات
+          المالية السابقة التي قدمتها لأويس كابيتال. أقر أيضًا بأن هذا النوع من
+          الاستثمار لا يوفر أي ضمان ضد الخسائر، وأنني اتخذت قراري بالاستثمار
+          الآن أو في المستقبل في هذا المنتج.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">التصنيف</p>
+        <p class="row-value">تم الاعتراف به إلكترونيًا</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">معترف به بواسطة</p>
+        <p class="row-value">بدر رشيد صالح العبيدي</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">الهوية الوطنية</p>
+        <p class="row-value">1083894129</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">رقم الجوال</p>
+        <p class="row-value">0556363243</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">البريد الإلكتروني</p>
+        <p class="row-value">balobaidi@owais.sa</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">التاريخ والوقت</p>
+        <p class="row-value">10-07-2023 18:45:59</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">IP</p>
+        <p class="row-value">179.20.10.2</p>
+      </div>
+    </div>
+  </body>
+</html>

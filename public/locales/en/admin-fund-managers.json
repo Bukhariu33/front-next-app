@@ -1,0 +1,11 @@
+{
+  "id": "ID",
+  "fullName": "Full Name",
+  "email": "Email",
+  "birthDate": "Birth Date",
+  "PhoneNumber": "Phone Number",
+  "nationalId": "National ID",
+  "createdAt": "Created At",
+  "dragAndDropFilesHere": "Drag and drop files here",
+  "maxFileSize": "Max File Size"
+}

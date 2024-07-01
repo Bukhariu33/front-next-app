@@ -1,0 +1,32 @@
+{
+  "1": {
+    "id": "1",
+    "value": "userTraining",
+    "labelEn": "User Training",
+    "labelAr": "تدريب المستخدم"
+  },
+  "2": {
+    "id": "2",
+    "value": "billingAndAccounts",
+    "labelEn": "Billing and Accounts",
+    "labelAr": "الفواتير والحسابات"
+  },
+  "3": {
+    "id": "3",
+    "value": "productQueries",
+    "labelEn": "Product Queries",
+    "labelAr": "استفسارات المنتج"
+  },
+  "4": {
+    "id": "4",
+    "value": "technicalSupport",
+    "labelEn": "Technical Support",
+    "labelAr": "الدعم الفني"
+  },
+  "5": {
+    "id": "5",
+    "value": "complaintsAndFeedback",
+    "labelEn": "Complaints and Feedback",
+    "labelAr": "الشكاوى والتعليقات"
+  }
+}

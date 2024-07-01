@@ -1,0 +1,38 @@
+.skeleton-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-image {
+  width: 100%;
+  opacity: 1;
+}
+
+.skeleton-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 75%
+  );
+  animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.search-input{
+  background-color: white !important;
+}

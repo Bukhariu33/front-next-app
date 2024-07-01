@@ -1,0 +1,266 @@
+{
+  "1": {
+    "id": "1",
+    "fundId": "1",
+    "investorId": "101",
+    "investmentAmount": 300000,
+    "investmentDate": "2021-08-01",
+    "investorInvestmentInfo": {
+      "investmentDocsAndInvoice": [
+        {
+          "name": "Document1",
+          "type": "pdf",
+          "size": 1024,
+          "key": "key1"
+        },
+        {
+          "name": "Document2",
+          "type": "image",
+          "size": 2048,
+          "key": "key2"
+        }
+      ],
+      "suitabilityAssessment": "suitable",
+      "purchases": [
+        {
+          "id": "ODWD0000000001692596",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        },
+        {
+          "id": "ODWD0000000001692595",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        }
+      ]
+    }
+  },
+  "2": {
+    "id": "2",
+    "fundId": "2",
+    "investorId": "101",
+    "investmentAmount": 300000,
+    "investmentDate": "2021-08-01",
+    "investorInvestmentInfo": {
+      "investmentDocsAndInvoice": [
+        {
+          "name": "Document1",
+          "type": "pdf",
+          "size": 1024,
+          "key": "key1"
+        },
+        {
+          "name": "Document2",
+          "type": "image",
+          "size": 2048,
+          "key": "key2"
+        }
+      ],
+      "suitabilityAssessment": "suitable",
+      "purchases": [
+        {
+          "id": "ODWD0000000001692596",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        },
+        {
+          "id": "ODWD0000000001692595",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        }
+      ]
+    }
+  },
+  "3": {
+    "id": "3",
+    "fundId": "1",
+    "investorId": "102",
+    "investmentAmount": 300000,
+    "investmentDate": "2021-08-01",
+    "investorInvestmentInfo": {
+      "investmentDocsAndInvoice": [
+        {
+          "name": "Document1",
+          "type": "pdf",
+          "size": 1024,
+          "key": "key1"
+        },
+        {
+          "name": "Document2",
+          "type": "image",
+          "size": 2048,
+          "key": "key2"
+        }
+      ],
+      "suitabilityAssessment": "suitable",
+      "purchases": [
+        {
+          "id": "ODWD0000000001692596",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        },
+        {
+          "id": "ODWD0000000001692595",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        }
+      ]
+    }
+  },
+  "4": {
+    "id": "4",
+    "fundId": "4",
+    "investorId": "102",
+    "investmentAmount": 300000,
+    "investmentDate": "2021-08-01",
+    "investorInvestmentInfo": {
+      "investmentDocsAndInvoice": [
+        {
+          "name": "Document1",
+          "type": "pdf",
+          "size": 1024,
+          "key": "key1"
+        },
+        {
+          "name": "Document2",
+          "type": "image",
+          "size": 2048,
+          "key": "key2"
+        }
+      ],
+      "suitabilityAssessment": "suitable",
+      "purchases": [
+        {
+          "id": "ODWD0000000001692596",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        },
+        {
+          "id": "ODWD0000000001692595",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        }
+      ]
+    }
+  },
+  "5": {
+    "id": "5",
+    "fundId": "1",
+    "investorId": "103",
+    "investmentAmount": 300000,
+    "investmentDate": "2021-08-01",
+    "investorInvestmentInfo": {
+      "investmentDocsAndInvoice": [
+        {
+          "name": "Document1",
+          "type": "pdf",
+          "size": 1024,
+          "key": "key1"
+        },
+        {
+          "name": "Document2",
+          "type": "image",
+          "size": 2048,
+          "key": "key2"
+        }
+      ],
+      "suitabilityAssessment": "suitable",
+      "purchases": [
+        {
+          "id": "ODWD0000000001692596",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        },
+        {
+          "id": "ODWD0000000001692595",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        }
+      ]
+    }
+  },
+  "6": {
+    "id": "6",
+    "fundId": "4",
+    "investorId": "104",
+    "investmentAmount": 300000,
+    "investmentDate": "2021-08-01",
+    "investorInvestmentInfo": {
+      "investmentDocsAndInvoice": [
+        {
+          "name": "Document1",
+          "type": "pdf",
+          "size": 1024,
+          "key": "key1"
+        },
+        {
+          "name": "Document2",
+          "type": "image",
+          "size": 2048,
+          "key": "key2"
+        }
+      ],
+      "suitabilityAssessment": "suitable",
+      "purchases": [
+        {
+          "id": "ODWD0000000001692596",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        },
+        {
+          "id": "ODWD0000000001692595",
+          "invoice": "https://www.google.com",
+          "units": 10,
+          "subscriptionFees": 2000,
+          "vat": 2000,
+          "total": 300000,
+          "dateTime": "12/03/2023 03:00pm"
+        }
+      ]
+    }
+  }
+}

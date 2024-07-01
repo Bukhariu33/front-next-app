@@ -1,0 +1,192 @@
+{
+  "101": {
+    "id": "101",
+    "email": "corporate-investor@test.com",
+    "nationalId": null,
+    "type": "corporateInvestor",
+    "createdAt": "2022-09-15",
+    "code": "INV001",
+    "name": "Jane Corp",
+    "phone": 9876509876,
+    "status": "approved",
+    "firstName": "Jane",
+    "lastName": "Corp",
+    "fullName": "Jane Corp",
+    "mobile": "9876509876",
+    "jobTitle": "Software Engineer",
+    "crNumber": "CR123",
+    "birthDate": "",
+    "gender": "Male",
+    "walletBalance": 50000,
+    "walletId": "1",
+    "investedAmounts": 10000,
+    "isQualified": false,
+    "isKycComplete": false,
+    "corporate": {
+      "name": "Jane Corp Ltd.",
+      "crNumber": "CR123",
+      "issuanceDate": "2018-01-01",
+      "expiryDate": "2023-01-01",
+      "city": "Riyadh",
+      "activities": [
+        {
+          "id": "649921",
+          "name": "أنشطة الاستثمار للحساب الخاص للوحدات المعنية ، يشمل شركات رؤوس الأموال المجازفة، ونوادي الاستثمار"
+        },
+        {
+          "id": "661221",
+          "name": "التعامل في الأوراق المالية"
+        },
+        {
+          "id": "661907",
+          "name": "التقنية المالية في أعمال الأوراق المالية"
+        }
+      ],
+      "createdAt": "2022-09-16",
+      "updatedAt": "2022-09-17"
+    },
+    "address": {
+      "unitNum": "410",
+      "streetNum": "9756 Colin Crest",
+      "city": "Port Terrencechester",
+      "buildingNum": "108",
+      "zone": "Port Geneside",
+      "postalCode": "67567-7607"
+    },
+    "mobileVerifiedAt": "",
+    "acknowledgmentSigned": false,
+    "updatedAt": "2022-09-18",
+    "investments": ["1", "4"]
+  },
+  "102": {
+    "id": "102",
+    "email": "individual-investor@test.com",
+    "nationalId": "123456789",
+    "type": "individualInvestor",
+    "createdAt": "2022-10-01",
+    "code": "INV002",
+    "name": "John Doe",
+    "phone": 9876543210,
+    "status": "approved",
+    "firstName": "John",
+    "lastName": "Doe",
+    "fullName": "John Doe",
+    "mobile": "9876543210",
+    "jobTitle": "Software Engineer",
+    "crNumber": null,
+    "birthDate": "1990-01-01",
+    "gender": "male",
+    "walletId": "2",
+    "walletBalance": 10000,
+    "investedAmounts": 2000,
+    "isQualified": true,
+    "isKycComplete": false,
+    "corporate": null,
+    "address": {
+      "unitNum": "410",
+      "streetNum": "9756 Colin Crest",
+      "city": "Port Terrencechester",
+      "buildingNum": "108",
+      "zone": "Port Geneside",
+      "postalCode": "67567-7607"
+    },
+    "mobileVerifiedAt": "2022-10-02",
+    "acknowledgmentSigned": true,
+    "updatedAt": "2022-10-03",
+
+    "investments": ["1", "2"]
+  },
+  "103": {
+    "id": "103",
+    "email": "individual-investor2@test.com",
+    "nationalId": "123456789",
+    "type": "individualInvestor",
+    "createdAt": "2022-09-15",
+    "code": "INV003",
+    "name": "John Doe",
+    "phone": 9876509876,
+    "status": "approved",
+    "firstName": "John",
+    "lastName": "Doe",
+    "fullName": "John Doe",
+    "mobile": "9876509876",
+    "jobTitle": "Software Engineer",
+    "crNumber": null,
+    "birthDate": "",
+    "gender": "",
+    "walletBalance": 50000,
+    "walletId": "3",
+    "investedAmounts": 10000,
+    "isQualified": true,
+    "isKycComplete": false,
+    "corporate": null,
+    "address": {
+      "unitNum": "410",
+      "streetNum": "9756 Colin Crest",
+      "city": "Port Terrencechester",
+      "buildingNum": "108",
+      "zone": "Port Geneside",
+      "postalCode": "67567-7607"
+    },
+    "mobileVerifiedAt": "",
+    "acknowledgmentSigned": false,
+    "updatedAt": "2022-09-18",
+    "investments": ["1"]
+  },
+  "104": {
+    "id": "104",
+    "email": "corporate-investor2@test.com",
+    "nationalId": null,
+
+    "type": "corporateInvestor",
+    "createdAt": "2022-09-15",
+    "code": "INV004",
+    "name": "Jane Corp",
+    "phone": 9876509876,
+    "status": "pending",
+    "firstName": "Jane",
+    "lastName": "Corp",
+    "fullName": "Jane Corp",
+    "mobile": "9876509876",
+    "jobTitle": "Software Engineer",
+    "crNumber": "CR123",
+    "birthDate": "",
+    "gender": "",
+    "walletBalance": 50000,
+    "walletId": "4",
+    "investedAmounts": 10000,
+    "isQualified": false,
+    "isKycComplete": false,
+    "corporate": {
+      "name": "Jane Corp Ltd.",
+      "crNumber": "CR123",
+      "issuanceDate": "2018-01-01",
+      "expiryDate": "2023-01-01",
+      "city": "Riyadh",
+      "activities": [
+        {
+          "id": "649921",
+          "name": "أنشطة الاستثمار للحساب الخاص للوحدات المعنية ، يشمل شركات رؤوس الأموال المجازفة، ونوادي الاستثمار"
+        },
+        {
+          "id": "661221",
+          "name": "التعامل في الأوراق المالية"
+        }
+      ],
+      "createdAt": "2022-09-16",
+      "updatedAt": "2022-09-17"
+    },
+    "address": {
+      "unitNum": "410",
+      "streetNum": "9756 Colin Crest",
+      "city": "Port Terrencechester",
+      "buildingNum": "108",
+      "zone": "Port Geneside",
+      "postalCode": "67567-7607"
+    },
+    "mobileVerifiedAt": "",
+    "acknowledgmentSigned": false,
+    "updatedAt": "2022-09-18",
+    "investments": ["4"]
+  }
+}

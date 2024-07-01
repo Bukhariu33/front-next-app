@@ -1,0 +1,11 @@
+{
+  "id": "معرف",
+  "fullName": "الاسم الكامل",
+  "email": "البريد الإلكتروني",
+  "birthDate": "تاريخ الميلاد",
+  "PhoneNumber": "رقم الهاتف",
+  "nationalId": "الهوية الوطنية",
+  "createdAt": "تاريخ الإنشاء",
+  "dragAndDropFilesHere": "قم بسحب وإفلات الملفات هنا",
+  "maxFileSize": "الحجم الأقصى للملف"
+}

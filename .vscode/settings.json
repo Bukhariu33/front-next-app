@@ -1,0 +1,76 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.inlayHints.enabled": "on",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+
+  "search.exclude": {
+    "package-lock.json": true,
+    "**/.git": true,
+    "node_modules/**": true,
+    "tmp/**": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "jest.autoRun": {
+    "watch": false // Start the jest with the watch flag
+    // "onStartup": ["all-tests"] // Run all tests upon project launch
+  },
+  "jest.showCoverageOnLoad": true, // Show code coverage when the project is launched
+  "jest.autoRevealOutput": "on-exec-error", // Don't automatically open test explorer terminal on launch
+  // Multiple language settings for json and jsonc files
+  "[json][jsonc][yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.ignorePath": ".gitignore",
+  "cSpell.words": [
+    "Boundry",
+    "chakra",
+    "corporates",
+    "Formik",
+    "iban",
+    "Mantine",
+    "owais",
+    "smes",
+    "Sukuk",
+    "Tajawal",
+    "tanstack",
+    "viban"
+  ],
+
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  } // Don't run prettier for files listed in .gitignore
+}

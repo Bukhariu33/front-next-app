@@ -1,0 +1,10 @@
+.bgGradient {
+  background: linear-gradient(266deg, #795f00 -8.23%, #dcac00 80.49%);
+}
+
+.button {
+  /* text-base font-bold leading-5 */
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+}

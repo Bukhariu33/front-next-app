@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Individual Investor KYC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body,
+    * {
+      overflow-x: hidden;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      padding: 90px 130px;
+    }
+
+    .title {
+      font-size: 26px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .mb-8 {
+      margin-bottom: 32px;
+    }
+
+    .kyc-table-header {
+      padding-inline: 32px;
+      padding-block: 4px;
+      background-color: #dcac00;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      padding-top: 1px;
+      font-weight: 600;
+    }
+
+    .kyc-table-row {
+      display: flex;
+      justify-content: space-between;
+      padding-inline: 32px;
+      padding-block: 4px;
+      border: 2px solid black;
+      padding-top: 1px;
+      gap: 16px;
+      font-weight: 400;
+      font-size: 22px;
+    }
+
+    .border-t-0 {
+      border-top: 0px;
+    }
+
+    .row-title {
+      flex: 2 1 0%;
+      margin: 0;
+    }
+
+    .row-value {
+      flex: 1 2 0%;
+      text-align: right;
+      margin: 0;
+    }
+
+    .row-value-list-container {
+      flex: 1 2 0%;
+      text-align: left;
+      display: flex;
+      justify-content: end;
+    }
+
+    .row-value-list {
+      width: fit-content;
+      text-align: left;
+    }
+
+    .text-yellow {
+      color: #dcac00;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1 class="title">Know Your Client Form</h1>
+      <h2 class="subtitle mb-8">Summary of all the details of the Investor</h2>
+
+      <!-- PERSONAL INFORMATION -->
+      <div class="kyc-table-header">Personal Information</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">Full name</p>
+        <p class="row-value">Bader Rashed Salah Alobaidi</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Date of Birth</p>
+        <p class="row-value">14/11/1994</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">National ID</p>
+        <p class="row-value">1083894129</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Phone Number</p>
+        <p class="row-value">0556363243</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Email Address</p>
+        <p class="row-value">balobaidi@owais.sa</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Nationality</p>
+        <p class="row-value">Saudi</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Gender</p>
+        <p class="row-value">Male</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">National Address</p>
+        <p class="row-value">شارع الانظوال، حي الجزيرة، الرياض</p>
+      </div>
+
+      <!-- GENERAL INFORMATION -->
+      <div class="kyc-table-header">General Information</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">
+          Have you worked in the financial sector during the past five years?
+        </p>
+        <p class="row-value">Yes</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          Do you have any other practical experience related to the financial
+          sector?
+        </p>
+        <p class="row-value">Yes</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Have you ever invested in Debt Instruments?</p>
+        <p class="row-value">Yes</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          Are you a board of directors member, an audit committee member or a
+          senior executive in a listed company?
+        </p>
+        <p class="row-value">No</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Knowledge and investment experience?</p>
+        <p class="row-value">High</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Investment Risk Tolerance?</p>
+        <p class="row-value">High</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Investment Duration?</p>
+        <p class="row-value">Medium</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          Is the client entrusted with prominent public functions in the Kingdom
+          or a foreign country, senior management positions, or a position in an
+          international organization ?
+        </p>
+        <p class="row-value">No</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          Does the client have a relationship (by blood or marriage up to the
+          second degree), or have an association with a person entrusted with a
+          prominent public function in the Kingdom or a foreign country, senior
+          management positions, or a position in an international organization?
+        </p>
+        <p class="row-value">No</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          Is the client the beneficial owner of the account or business
+          relationship?
+        </p>
+        <p class="row-value">Beneficiary</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          The ID and identity of the real beneficiary of the account
+        </p>
+        <p class="row-value">Null</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Education level?</p>
+        <p class="row-value">Postgraduate</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">Current occupation?</p>
+        <p class="row-value">Business owner</p>
+      </div>
+
+      <!-- FINANCIAL CONDITION -->
+      <div class="kyc-table-header">Financial Condition</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">
+          Approximate net worth “Excluding Home Ownership” (in SAR)
+        </p>
+        <p class="row-value">SAR 600,001 - 1,500,000</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">What are you currently invested in?</p>
+        <div class="row-value-list-container">
+          <div class="row-value-list">
+            <p>Real Estate</p>
+            <p>Capital Market</p>
+            <p>Private equity</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">What is your investment objective?</p>
+        <div class="row-value-list-container">
+          <div class="row-value-list">
+            <p>Capital gains</p>
+            <p>Income generation</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Number of years of investment</p>
+        <p class="row-value">1</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Approximate annual income?</p>
+        <p class="row-value">SAR 600,001 - 1,500,000</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Expected amount invested per Opportunity</p>
+        <p class="row-value">100,001 - 200,000</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">The amount expected to be invested annually?</p>
+        <p class="row-value">200,001 - 500,000</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">
+          Any other financial information on the financial sta..
+        </p>
+        <p class="row-value">Null</p>
+      </div>
+
+      <!-- CLIENT CERTIFICATION  -->
+      <div class="kyc-table-header">Client Certification</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">
+          Yes me [<span class="text-yellow">Bader Rashed Salah Alobaidi</span>]
+          Identity holder No. [<span class="text-yellow">1083894129</span>] I
+          declare that I have read all the Terms and Conditions, Investment
+          agency agreement and both the Disclosure Policy and Privacy Policy
+          clearly, and I am in the best of my mind, and expressly declare that I
+          agree with what came in it. I also acknowledge that the money I
+          deposited in Owais Capital platform is my own money and they are free
+          from any suspicion and that my personal choice makes any investment
+          decision, and this is after reviewing the opportunity and realizing
+          the expected risks, and that there is no guarantee of the capital, and
+          that any investment opportunity may be subject to profit or loss.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          I acknowledge that the information I have provided in this form is
+          accurate and complete. I also confirm that I have read and understood
+          the 'Terms and Conditions of Account Opening' below and agree to abide
+          by them
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          I acknowledge that Owais Capital 'Company will rely on the information
+          provided in this form. In case of any changes, I will update my
+          information. If I do not update the information, Owais Capital
+          'Company may freeze my account for twelve months, which may lead to a
+          temporary suspension of the account without notifying me.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Label:</p>
+        <p class="row-value">Acknowledged Electronically</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Acknowledged By:</p>
+        <p class="row-value">Bader Rasheed Salah Alobaidi</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">National ID</p>
+        <p class="row-value">1083894129</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Mobile No:</p>
+        <p class="row-value">0556363243</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Email ID:</p>
+        <p class="row-value">balobaidi@owais.sa</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Date and Time:</p>
+        <p class="row-value">10-07-2023 18:45:59</p>
+      </div>
+
+      <div class="kyc-table-row mb-8 border-t-0">
+        <p class="row-title">IP:</p>
+        <p class="row-value">179.20.10.2</p>
+      </div>
+
+      <!-- CLIENT SUITABILITY ASSESSMENT -->
+      <div class="kyc-table-header">Client suitability assessment</div>
+
+      <div class="kyc-table-row">
+        <p class="row-title">Result</p>
+        <p class="row-value">Unsuitable</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          Based on the Client responses in the KYC form, the Client Unsuitable
+          for investing in debt instruments Product
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          Did the Client Read understand and Agree on the Customer
+          acknowledgment of an appropriate product and/or product description
+          Adoption of Article 43 (c) of the Financial Market Institutions
+          Regulations
+        </p>
+        <p class="row-value">Yes</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">
+          I acknowledge that I am aware that the Debt Instruments Product(the
+          product) and the nature of the product (and any deals executed on the
+          product on my behalf) involve a high level of risk that exceeds the
+          risks involved and risk tolerance specified in my file/KYC with Owais
+          Capital at the present time, and I declare that I have seen my
+          suitability report and that the product is not suitable for me I also
+          confirm that I understand the nature of the risks contained in the
+          terms and conditions of the product and any deals executed on the
+          product, and that they are not consistent with the investment
+          objectives and/or investment data and/or financial statements
+          submitted to Owais Capital by me in advance. Accordingly, I
+          acknowledge the investment in the product, bear full responsibility,
+          and absolve Owais Capital from the aforementioned risks. - I also
+          declare that all information provided by me through the risk
+          assessment form and suitability report is accurate and not .
+          misleading Accordingly, I agree to the outcome of the assessment and
+          the suitability report that determines my ability to invest in such
+          high risk products. Despite this, I would like to invest in such
+          products with full responsibility and without the responsibility of
+          Owais Capital or any of its employees, and thus I confirm that I
+          understand the nature of the existing risks and the risks recorded in
+          the terms and conditions in relation to the product and the operations
+          carried out under this product and these are not compatible with the
+          suitability report.  investment objectives and/or investment
+          experiences and/or previous financial information provided by me to
+          Owais Capital. I also acknowledge that this type of investment does
+          not provide any guarantee against losses, and that I have made my
+          decision to invest now or in the future in this product.
+        </p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Label:</p>
+        <p class="row-value">Acknowledged Electronically</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Acknowledged By:</p>
+        <p class="row-value">Bader Rasheed Salah Alobaidi</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">National ID</p>
+        <p class="row-value">1083894129</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Mobile No:</p>
+        <p class="row-value">0556363243</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Email ID:</p>
+        <p class="row-value">balobaidi@owais.sa</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">Date and Time:</p>
+        <p class="row-value">10-07-2023 18:45:59</p>
+      </div>
+
+      <div class="kyc-table-row border-t-0">
+        <p class="row-title">IP:</p>
+        <p class="row-value">179.20.10.2</p>
+      </div>
+    </div>
+  </body>
+</html>

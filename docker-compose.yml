@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  # Production service
+  sukuk-web-prod:
+    build:
+      context: .
+    ports:
+      - '${PORT}:${PORT}'
+    env_file:
+      - .env
+    environment:
+      - PORT=${PORT}
+    expose:
+      - '${PORT}'

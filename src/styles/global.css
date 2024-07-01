@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Filter Manager UI Vars */
+  --filter-manager-input-height: 42px;
+
+  /* small screens */
+  --filter-manager-input-height-sm: 36px;
+}
+
+@layer components {
+  .linear {
+    @apply !bg-transparent bg-gradient-to-r from-brand-secondary-highlight to-brand-secondary-main;
+  }
+
+  /* yellow */
+  .main-linear {
+    @apply !bg-transparent bg-gradient-to-b from-brand-primary-main-gradient-start
+    to-brand-primary-main-gradient-end;
+  }
+
+  .linear-2 {
+    @apply !bg-transparent;
+    background: linear-gradient(50.21deg, #f4f4f4 18.91%, #dcac00 353.54%);
+  }
+  .linear-3 {
+    @apply !bg-transparent;
+    background: linear-gradient(
+      180deg,
+      rgba(220, 172, 0, 0.32) 0%,
+      rgba(220, 172, 0, 0) 129.52%
+    );
+  }
+  .linear-4 {
+    @apply !bg-transparent;
+    background: linear-gradient(305.69deg, #00c2cb -83.13%, #ffffff 122.29%);
+  }
+  .linear-5 {
+    @apply !bg-transparent;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 194, 203, 0.25) 0%,
+      rgba(220, 172, 0, 0.175) 100%
+    );
+  }
+  .linear-6 {
+    @apply !bg-transparent;
+    background: linear-gradient(
+      180deg,
+      rgba(220, 172, 0, 0.25) 0%,
+      rgba(0, 194, 203, 0.25) 100%
+    );
+  }
+  .linear-7 {
+    @apply !bg-transparent;
+    background: linear-gradient(
+      67.19deg,
+      rgba(0, 194, 203, 0.25) 43.95%,
+      rgba(220, 172, 0, 0.25) 98.84%
+    );
+  }
+  .linear-black-gold {
+    @apply !bg-transparent;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(220, 172, 0, 0.255) 100%
+    );
+  }
+
+  .dir-ltr {
+    direction: ltr;
+  }
+
+  .dir-rtl {
+    direction: rtl;
+  }
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.mantine-Text-root {
+  line-height: normal;
+}
+
+@layer base {
+  [type='checkbox']:checked {
+    background-image: unset !important;
+    border-color: #dcac00;
+  }
+  [type='checkbox'] {
+    color: #dcac00 !important;
+    box-shadow: none !important;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 0.25rem;
+    padding: 0;
+    display: block;
+    margin: 0;
+    transition:
+      border-color 100ms ease,
+      background-color 100ms ease;
+    cursor: default;
+  }
+}
+
+@media (hover: hover) {
+  ::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    border-radius: 9999px;
+    display: block;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 9999px;
+    background: @apply bg-brand-primary-main;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #dcac00 !important;
+    border-radius: 9999px;
+    height: 10px;
+    width: 10px;
+    display: block;
+  }
+}

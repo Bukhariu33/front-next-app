@@ -1,0 +1,225 @@
+/**
+clean all colors and background colors
+
+'bg-brand-accent-highlight/10 p-4 h-12 sm:h-14 rounded-lg text-base border border-brand-accent-highlight/10 text-[#64646C] placeholder-[#64646C] focus:ring-1 focus:ring-brand-primary-main focus:bg-white',
+
+*/
+
+.clean {
+  background-color: unset !important;
+  color: unset !important;
+  height: 36px !important;
+  border-color: unset !important;
+  fill: unset !important;
+  stroke: unset !important;
+  outline: none !important;
+}
+
+.clean:focus {
+  outline: none !important;
+  background-color: unset !important;
+  color: unset !important;
+  border-color: unset !important;
+  fill: unset !important;
+  stroke: unset !important;
+}
+
+.pendingApproval {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+.pendingApproval:focus {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+.pending {
+  background-color: #ffc107 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.pending:focus {
+  background-color: #ffc107 !important;
+  color: #fff !important;
+}
+
+.contractApproved {
+  background-color: #fff7df !important;
+  color: #dcac00 !important;
+  border: none !important;
+}
+
+.contractApproved:focus {
+  background-color: #fff7df !important;
+  color: #dcac00 !important;
+  border: none !important;
+}
+
+.contractRejected {
+  background-color: #fee6e6 !important;
+  color: #f44336 !important;
+  border: none !important;
+}
+
+.contractRejected:focus {
+  background-color: #fee6e6 !important;
+  color: #f44336 !important;
+  border: none !important;
+}
+
+.fundApproved {
+  background-color: #dcac00 !important;
+  color: #fff !important;
+}
+
+.fundApproved:focus {
+  background-color: #dcac00 !important;
+  color: #fff !important;
+}
+
+.fundRejected,
+.rejected {
+  background-color: #fff !important;
+  color: #f44336 !important;
+  border-color: #f44336 !important;
+  border: solid !important;
+}
+
+.fundRejected,
+.rejected:focus {
+  background-color: #fff !important;
+  color: #f44336 !important;
+  border-color: #f44336 !important;
+  border: solid !important;
+}
+
+.fundSchedule {
+  background-color: #fff !important;
+  color: #03989e !important;
+  border-color: #03989e !important;
+  border: solid !important;
+}
+
+.fundSchedule:focus {
+  background-color: #fff !important;
+  color: #03989e !important;
+  border-color: #03989e !important;
+  border: solid !important;
+}
+
+.live,
+.doneSuccessfully,
+.approved,
+.open,
+.resolved {
+  background-color: #1fe08f !important;
+  color: #fff !important;
+}
+
+.live:focus,
+.doneSuccessfully:focus,
+.approved:focus,
+.open:focus,
+.resolved:focus {
+  background-color: #1fe08f !important;
+  color: #fff !important;
+}
+
+.partiallyFunded,
+.inProgress {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  border: solid !important;
+}
+
+.partiallyFunded:focus,
+.inProgress:focus {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  border: solid !important;
+}
+
+.funded {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.funded:focus {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.underRepayment {
+  background-color: #e5f8f9 !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+.underRepayment:focus {
+  background-color: #e5f8f9 !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+.completed {
+  background-color: #a38000 !important;
+  color: #fff !important;
+}
+
+.completed:focus {
+  background-color: #a38000 !important;
+  color: #fff !important;
+}
+.open,
+.resolved {
+  background-color: #1fe08f !important;
+  color: #fff !important;
+  text-transform: capitalize;
+}
+.underExecution {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  border: solid !important;
+  border-width: 2px !important;
+  text-transform: capitalize;
+  font-weight: bold !important;
+}
+.closed {
+  background-color: #d9d9d9 !important;
+  color: #000 !important;
+  text-transform: capitalize;
+  font-weight: bold !important;
+}
+
+.transactionFailed,
+.pending,
+.closed {
+  background-color: #d9d9d9 !important;
+  color: #64646c !important;
+}
+.transactionFailed:focus,
+.pending:focus,
+.closed:focus {
+  background-color: #d9d9d9 !important;
+  color: #64646c !important;
+}
+
+.fallback {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  border: solid !important;
+}
+
+.fallback:focus {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  border: solid !important;
+}

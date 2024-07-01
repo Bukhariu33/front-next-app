@@ -1,0 +1,222 @@
+{
+  "1": {
+    "id": "1",
+    "fullName": "Fund Manager 1",
+    "email": "fund-manager@test.com",
+    "mobile": "+966502443236",
+    "birthDate": "1965-07-07",
+    "gender": "Female",
+    "nationality": "Saudi",
+    "maritalStatus": "single",
+    "nationalId": "8269851570",
+    "type": "fundManager",
+    "status": "approved",
+    "mobileVerifiedAt": "2024-10-19T10:22:25.000Z",
+    "createdAt": "2024-10-19T08:22:24.962Z",
+    "code": "FM-000019",
+    "corporate": {
+      "crNumber": 4490120,
+      "name": "Dach - Grady",
+      "issuanceDate": "2023-09-17",
+      "activities": [
+        {
+          "id": "649921",
+          "name": "أنشطة الاستثمار للحساب الخاص للوحدات المعنية ، يشمل شركات رؤوس الأموال المجازفة، ونوادي الاستثمار"
+        },
+        {
+          "id": "661221",
+          "name": "التعامل في الأوراق المالية"
+        },
+        {
+          "id": "661907",
+          "name": "التقنية المالية في أعمال الأوراق المالية"
+        },
+        {
+          "id": "663002",
+          "name": "إدارة الاستثمارات وتشغيل الصناديق"
+        },
+        {
+          "id": "663003",
+          "name": "إدارة الاستثمارات"
+        }
+      ],
+      "expiryDate": "2024-08-29",
+      "city": "North Verona",
+      "createdAt": "2024-10-19T08:22:24.091Z",
+      "updatedAt": "2024-10-19T08:22:24.091Z"
+    },
+    "address": {
+      "unitNum": "410",
+      "streetNum": "9756 Colin Crest",
+      "city": "Port Terrencechester",
+      "buildingNum": "108",
+      "zone": "Port Geneside",
+      "postalCode": "67567-7607"
+    }
+  },
+  "2": {
+    "id": "2",
+    "fullName": "Fund Manager 2",
+    "email": "fund-manager2@test.com",
+    "mobile": "+966503333232",
+    "birthDate": "1999-12-19",
+    "gender": "Male",
+    "nationality": "Saudi",
+    "maritalStatus": "single",
+    "nationalId": "2930802426",
+    "type": "fundManager",
+    "status": "approved",
+    "mobileVerifiedAt": "2023-10-19T10:22:26.000Z",
+    "createdAt": "2023-10-19T08:22:26.460Z",
+    "code": "FM-000020",
+    "corporate": {
+      "crNumber": 8821472,
+      "name": "Blick, Schoen and Torphy",
+      "issuanceDate": "2023-08-11",
+      "activities": [
+        {
+          "id": "649921",
+          "name": "أنشطة الاستثمار للحساب الخاص للوحدات المعنية ، يشمل شركات رؤوس الأموال المجازفة، ونوادي الاستثمار"
+        },
+        {
+          "id": "661221",
+          "name": "التعامل في الأوراق المالية"
+        },
+        {
+          "id": "661907",
+          "name": "التقنية المالية في أعمال الأوراق المالية"
+        },
+        {
+          "id": "663002",
+          "name": "إدارة الاستثمارات وتشغيل الصناديق"
+        },
+        {
+          "id": "663003",
+          "name": "إدارة الاستثمارات"
+        }
+      ],
+      "expiryDate": "2024-06-30",
+      "city": "Hyattberg",
+      "createdAt": "2023-10-19T08:22:25.243Z",
+      "updatedAt": "2023-10-19T08:22:25.243Z"
+    },
+    "address": {
+      "unitNum": "410",
+      "streetNum": "9756 Colin Crest",
+      "city": "Port Terrencechester",
+      "buildingNum": "108",
+      "zone": "Port Geneside",
+      "postalCode": "67567-7607"
+    }
+  },
+  "3": {
+    "id": "3",
+    "fullName": "Fund Manager 3",
+    "email": "fund-manager3@test.com",
+    "mobile": "+966503333234",
+    "birthDate": "1976-10-13",
+    "gender": "Female",
+    "nationality": "Saudi",
+    "maritalStatus": "single",
+    "nationalId": "7808256813",
+    "type": "fundManager",
+    "status": "approved",
+    "mobileVerifiedAt": "2023-10-19T10:22:26.000Z",
+    "createdAt": "2023-10-19T08:22:26.754Z",
+    "code": "FM-000022",
+    "corporate": {
+      "crNumber": 8709378,
+      "name": "Waelchi - Schneider",
+      "issuanceDate": "2023-05-10",
+      "activities": [
+        {
+          "id": "649921",
+          "name": "أنشطة الاستثمار للحساب الخاص للوحدات المعنية ، يشمل شركات رؤوس الأموال المجازفة، ونوادي الاستثمار"
+        },
+        {
+          "id": "661221",
+          "name": "التعامل في الأوراق المالية"
+        },
+        {
+          "id": "661907",
+          "name": "التقنية المالية في أعمال الأوراق المالية"
+        },
+        {
+          "id": "663002",
+          "name": "إدارة الاستثمارات وتشغيل الصناديق"
+        },
+        {
+          "id": "663003",
+          "name": "إدارة الاستثمارات"
+        }
+      ],
+      "expiryDate": "2024-08-31",
+      "city": "North Adelbert",
+      "createdAt": "2023-10-19T08:22:25.246Z",
+      "updatedAt": "2023-10-19T08:22:25.246Z"
+    },
+    "address": {
+      "unitNum": "11",
+      "streetNum": "12",
+      "city": "Egypt",
+      "buildingNum": "20",
+      "zone": "33",
+      "postalCode": "383873"
+    }
+  },
+  "4": {
+    "id": "4",
+    "fullName": "Fund Manager 4",
+    "email": "fund-manager4@test.com",
+    "mobile": "+966503333235",
+    "birthDate": "1974-10-28",
+    "gender": "Female",
+    "nationality": "Saudi",
+    "maritalStatus": "single",
+    "nationalId": "1926651072",
+    "type": "fundManager",
+    "status": "pending",
+    "mobileVerifiedAt": "2023-10-19T10:22:26.000Z",
+    "createdAt": "2023-10-19T08:22:26.903Z",
+    "code": "FM-000023",
+    "corporate": {
+      "crNumber": 3053659,
+      "name": "Lindgren Group",
+      "issuanceDate": "2023-06-03",
+      "activities": [
+        {
+          "id": "649921",
+          "name": "أنشطة الاستثمار للحساب الخاص للوحدات المعنية ، يشمل شركات رؤوس الأموال المجازفة، ونوادي الاستثمار"
+        },
+        {
+          "id": "661221",
+          "name": "التعامل في الأوراق المالية"
+        },
+        {
+          "id": "661907",
+          "name": "التقنية المالية في أعمال الأوراق المالية"
+        },
+        {
+          "id": "663002",
+          "name": "إدارة الاستثمارات وتشغيل الصناديق"
+        },
+        {
+          "id": "663003",
+          "name": "إدارة الاستثمارات"
+        }
+      ],
+      "expiryDate": "2024-09-12",
+      "city": "South Emmettfield",
+      "createdAt": "2023-10-19T08:22:25.242Z",
+      "updatedAt": "2023-10-19T08:22:25.242Z"
+    },
+    "address": {
+      "unitNum": "11",
+      "streetNum": "12",
+      "city": "Egypt",
+      "buildingNum": "20",
+      "zone": "33",
+      "postalCode": "383873"
+    }
+  }
+}
